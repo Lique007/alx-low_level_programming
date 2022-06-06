@@ -1,16 +1,28 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - Program entry point
+ * Description: Prints all possible combinations of single-digit numbers
+ * Return: 0
  */
 int main(void)
 {
-        int i;	
-	
-	for (i = 0 ; i < 10 ; i++)
+	int x = 0;
+
+	while (x < 10)
 	{
-	       putchar((i % 10	
+		putchar(48 + x);
+
+		if (x != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
+		x++;
+	}
+
+	putchar('\n');
+
+	return (0);
+}
