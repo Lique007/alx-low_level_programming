@@ -3,7 +3,7 @@
 /**
  * print_rev - function protoype
  * Description: Prints a string in reverse
- * @s: print the string 
+ * @s: The string print
  * Return: void
 */
 void print_rev(char *s)
