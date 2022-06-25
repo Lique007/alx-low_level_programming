@@ -1,1 +1,1 @@
- a project about static libraries 
+ project about static libraries
